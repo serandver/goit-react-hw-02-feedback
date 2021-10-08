@@ -1,0 +1,46 @@
+body {
+  /* margin: 0; */
+  background-color: #fff;
+  color: black;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  /* font-size: 0; */
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+svg {
+  display: inline;
+}
+
+textarea {
+  resize: none;
+}
