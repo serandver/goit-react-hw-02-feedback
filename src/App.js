@@ -24,8 +24,8 @@ class App extends Component {
     return total ? Math.round((good / total) * 100) : 0;
   };
 
-  onLeaveFeedback = target => {
-    const { option } = target.currentTarget.dataset;
+  onLeaveFeedback = option => {
+    console.log(option);
     this.setState(prevState => {
       return { [option]: prevState[option] + 1 };
     });
